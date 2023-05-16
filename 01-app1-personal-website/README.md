@@ -14,7 +14,11 @@ By the end of this application the learner will be able to
    5. Client Server concepts and hosting a static site on GitHub
 
 Once the application is completed, the learner is requested to submit the link
-to code repository and the live hosted site, using the form below, under the
-type of application select
+to code repository and the live hosted site, using the
+[form](https://forms.gle/YcowC8wRTAnbeB8Z6), under the type of application
+select
 
 `Application 1: Creating a Personal Website.`
+
+Sample profile page can be found on
+[link](https://niravkpatel28.github.io/web-development-fundamentals/01-app1-personal-website/).
