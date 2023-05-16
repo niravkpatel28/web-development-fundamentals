@@ -1,0 +1,155 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* homework
+  Understanding box model of css 
+  */
+}
+
+body {
+  background-color: #161616;
+  color: #fbfbfb;
+}
+.header {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #fbfbfb26;
+}
+
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  width: 75px;
+  height: 75px;
+}
+.header__logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.header__navlinks {
+  display: flex;
+}
+.header__navlink {
+  list-style: none;
+  margin: 10px;
+  /* will be changed later */
+}
+.header__navitem {
+  text-decoration: none;
+  color: #fbfbfb;
+}
+
+.header__navitem:hover {
+  border-bottom: 2px solid white;
+}
+
+/* banner */
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin-bottom: 5vh;
+}
+
+.banner__image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile_image {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* .banner__text {
+} */
+.banner__heading {
+  text-align: center;
+  margin-top: 50px;
+  width: 40%;
+  font-size: 1.5rem;
+}
+
+/* techstack */
+.techstack {
+  height: 20vh;
+  background-color: #1a1a1a;
+}
+
+.courses {
+  margin-top: 50px;
+}
+/* .courses__heading {
+} */
+
+.courses__heading h2 {
+  text-align: center;
+  width: 50%;
+  margin: 0px auto;
+}
+
+.course__cards {
+  display: flex;
+  justify-content: center;
+}
+.courses__card {
+  width: 12rem;
+  height: 14rem;
+  margin: 10px;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+
+  /* color */
+  color: #545454;
+}
+
+.course__cards i,
+h4 {
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 10vh;
+  background-color: #1a1a1a;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+}
+.social {
+  display: flex;
+  width: 50%;
+  /* border: 2px solid red; */
+  margin: 0px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.social i {
+  padding: 10px;
+  /* border: 2px solid white; */
+  margin-left: 10px;
+  font-size: 1.5rem;
+  /* adding transitions */
+  transition-property: transform, color;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+  transition-timing-function: ease-in;
+}
+
+.social i:hover {
+  transform: scale(1.2);
+  color: #fbfbfb;
+}
