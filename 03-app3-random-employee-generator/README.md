@@ -14,7 +14,7 @@ instance of class Employee. (hint: Created using function constructor)
    Entire email string will be in lowercase.
 5. Company Name : Based on user input
 
-The code should take, number of employees and Company name from the user and
+The code should take, number of employees and company name from the user and
 generate an array containing employee details. Concepts covered in this
 assignment include,
 
