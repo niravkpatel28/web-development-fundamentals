@@ -24,8 +24,8 @@ Write functions that will perform the following operation on the above array.
    to be updated. eg. { name:  "updated  name" } Example
    `updateEmployeeById(id: "1",{update Object: updated values})` should update a
    single object from the array that has `"id=1"`. Assume that the
-   `updateObject` will contain keys that are present in the Employee object
-   Restrict updating key properties like id.
+   `updateObject` will contain keys that are present in the Employee object.
+   **Restrict** updating key properties like `id`.
 
 4. Delete an object with a specific id. This function should take in an argument
    as id and delete the same from the array of Employees.
