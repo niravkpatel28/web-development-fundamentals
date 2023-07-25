@@ -1,0 +1,20 @@
+{
+  "logo": {
+    "url": ""
+  },
+  "navLinks": [
+    {
+      "label": "About Us",
+      "href": "/about"
+    },
+    {
+      "label": "Contact",
+      "href": "/about"
+    },
+    {
+      "label": "Login",
+      "href": "#",
+      "cta": true
+    }
+  ]
+}
