@@ -1,5 +1,10 @@
 {
-  "bannerImage": [""],
+  "bannerImage": [
+    "https://niravkpatel28.github.io/web-development-fundamentals/05-react-api-data/images/banner1.jpg",
+    "https://niravkpatel28.github.io/web-development-fundamentals/05-react-api-data/images/banner2.jpg",
+    "https://niravkpatel28.github.io/web-development-fundamentals/05-react-api-data/images/banner3.jpg",
+    "https://niravkpatel28.github.io/web-development-fundamentals/05-react-api-data/images/banner4.jpg"
+  ],
   "heading": "Welcome to a new world",
   "subHeading": "This is where dreams and reality combine"
 }
